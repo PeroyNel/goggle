@@ -13,14 +13,16 @@ export const ResultContextProvider = ({ children }) => {
         const response = await fetch(`${baseUrl}${type}`, {
             method: 'GET',
             headers: {
-                'x-user-agent': 'desktop',
-                'x-proxy-location': 'US',
                 'x-rapidapi-host': 'google-search3.p.rapidapi.com',
                 'x-rapidapi-key': '7275795ca0msh883b96b5fc78302p1c58c4jsn8124510bcd8a'
+                
+                
             }
         });
         
         const data = await response.json();
+
+        console.log(data);
 
         setResults(data);
         setIsLoading(false);
