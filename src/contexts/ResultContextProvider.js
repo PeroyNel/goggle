@@ -26,4 +26,14 @@ export const ResultContextProvider = ({ children }) => {
 
     }
 
+    return (
+        <ResultContext.Provider value={{ getResults, results, searchTerm, setSearchTerm, isLoading }}>
+            {children}
+
+        </ResultContext.Provider>
+
+    );
+
 }
+
+export const useResultContext = () => useContext(ResultContext);
