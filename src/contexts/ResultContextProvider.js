@@ -19,6 +19,7 @@ export const ResultContextProvider = ({ children }) => {
                 'x-rapidapi-key': '7275795ca0msh883b96b5fc78302p1c58c4jsn8124510bcd8a'
             }
         });
+        
         const data = await response.json();
 
         setResults(data);
@@ -36,4 +37,4 @@ export const ResultContextProvider = ({ children }) => {
 
 }
 
-export const useResultContext = () => useContext(ResultContext);
+export const useResultsContext = () => useContext(ResultContext);
