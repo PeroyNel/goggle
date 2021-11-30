@@ -1,11 +1,8 @@
 import React from 'react';
 import Loader from 'react-loader-spinner';
 
-export const Loading = () => {
-    return (
-        <div className="flex jusitfy-center item-center">
-            <Loader type="Puff" color="#00BFFF" height={550} width={80}/>
-            
-        </div>
-    )
-}
+export const Loading = () => (
+  <div className="flex justify-center items-center ">
+    <Loader type="Puff" color="#00BFFF" height={550} width={80} />
+  </div>
+);
