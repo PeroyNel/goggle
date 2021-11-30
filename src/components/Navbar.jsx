@@ -9,7 +9,7 @@ export const Navbar = ({ darkTheme, setDarkTheme }) => {
             <div className="flex justify-between items-center space-x-5 w-screen">
                 <Link to="/">
                     <p className="text-2x1 bg-blue-500 font-bold text-white py-1 px-2 rounded dark:bg-gray-500 dark:text-grey-900">
-                        Goggle 🔍
+                        Goggle Search Engine 🔍
 
                     </p>
                 </Link>

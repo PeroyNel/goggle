@@ -4,16 +4,16 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';
 import './global.css';
-import { ResultContextProvider } from './contexts/ResultContextProvider';
+import { StateContextProvider } from './contexts/StateContextProvider';
 
 ReactDOM.render(
-    <ResultContextProvider>
+    <StateContextProvider>
         <Router>
         <App />
 
         </Router>
 
-    </ResultContextProvider>,
+    </StateContextProvider>,
     
 
  document.getElementById('root')
