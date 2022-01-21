@@ -14,7 +14,7 @@ export const StateContextProvider = ({ children }) => {
             method: 'GET',
             headers: {
                 'x-rapidapi-host': 'google-search3.p.rapidapi.com',
-                'x-rapidapi-key': '7275795ca0msh883b96b5fc78302p1c58c4jsn8124510bcd8a'
+                'x-rapidapi-key': process.env.REACT_APP_API_KEY
                 
                 
             }
