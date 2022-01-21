@@ -1,4 +1,4 @@
-Goggle Search Enging (Google Clone)
+Goggle Search Engine (Google Clone)
 
 This application has the ability to search for up-to-date results, news,
 images and videos. It also features a modern UI and dark mode. The Front
